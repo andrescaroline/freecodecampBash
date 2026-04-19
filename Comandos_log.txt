@@ -1,0 +1,29 @@
+===== TUTORIAL LOG - questionnaire.sh =====
+
+COMANDO | O QUE FAZ
+--------|----------
+./questionnaire.sh | Executa o script e exibe a pergunta "What's your name?"
+QUESTION1="What's your name?" | Define a variável QUESTION1 com a pergunta
+echo $QUESTION1 | Imprime o valor da variável QUESTION1 na tela
+
+read - input
+man 'echo' - funciona como um 'help'
+help [[ if ]] - info sobre 'if'
+help test
+
+condicionais: -lt -le -gt -ge / -eq -ne
+
+the exit status of 0 means it was true
+ex:  echo $? return exit status
+ex: ls; echo $? ok
+ex: bad_command; echo $? return 127 cause this command doesn't exist
+ex: [[ 4 -lt 5 ]]; echo $?
+
+ver build in command 
+ls / 
+ls /'command'
+sleep - use for pause for seconds anything like 'loop for'
+
+chmod +x bingo.sh - dá permissão a executar um file
+
+declare -p - mostra todas as 'enviorment variables'
