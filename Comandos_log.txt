@@ -23,7 +23,12 @@ ver build in command
 ls / 
 ls /'command'
 sleep - use for pause for seconds anything like 'loop for'
-
 chmod +x bingo.sh - dá permissão a executar um file
 
 declare -p - mostra todas as 'enviorment variables'
+echo $(( RANDOM % 75 + 1 )) - GERA UM NÚMERO ENTRE 1 E 75
+ARR=("a" "b" "c")
+echo ${ARR[@]} printa todo um array
+declare -p ARR - VER TODO O ARRAY COM INDICES
+[[ 'hello world' =~ 'lo wor' ]]; echo $? checa se uma palavra contém letras especificas
+[[ test? =~ \?$ ]]; echo $? 
