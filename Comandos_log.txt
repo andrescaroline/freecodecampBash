@@ -18,6 +18,7 @@ ex:  echo $? return exit status
 ex: ls; echo $? ok
 ex: bad_command; echo $? return 127 cause this command doesn't exist
 ex: [[ 4 -lt 5 ]]; echo $?
+H=$(( A + B )) soma de dua variaveis
 
 ver build in command 
 ls / 
