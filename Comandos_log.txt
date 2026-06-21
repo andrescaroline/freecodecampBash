@@ -33,3 +33,7 @@ echo ${ARR[@]} printa todo um array
 declare -p ARR - VER TODO O ARRAY COM INDICES
 [[ 'hello world' =~ 'lo wor' ]]; echo $? checa se uma palavra contém letras especificas
 [[ test? =~ \?$ ]]; echo $? 
+
+#comando para salvar um banco de dados já feito.
+#exemplo:
+pg_dump --clean --create --inserts --username=freecodecamp students > students.sql
